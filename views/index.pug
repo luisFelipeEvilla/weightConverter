@@ -1,0 +1,52 @@
+doctype html
+html(lang='en', dir='ltr')
+  head
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css')
+    link(rel='stylesheet', href='app.css')
+    link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='icon', sizes='16x16', href='./abacus16x16.png')
+    link(rel='icon', sizes='24x24', href='/abacus24x24.png')
+    link(rel='icon', sizes='32x32', href='/abacus32x32.png')
+    link(rel='icon', sizes='64x64', href='/abacus64x64.png')
+    link(rel='icon', sizes='128x128', href='/abacus128x128.png')
+    link(rel='icon', sizes='256x256', href='/abacus256x256.png')
+    link(rel='icon', sizes='512x512', href='/abacus512x512.png')
+    meta(charset='utf-8')
+    title Weight Converter
+  body
+    .row
+      .col.s10.m6.l8.offset-l2.center-align
+        h1 My Weight Converter
+      .col.s10.m6.l8.offset-l2.center-align
+        p
+          | hi everybody, as its name says this page is a simple
+          b  weight Converter
+          | , created in the development of the course
+          |       of Java script on Platzi. 😁😁      
+    .row
+      form(method="POST")
+        .col.l4.offset-l1.input-field
+          select#unit1
+              option(value='', disabled='', selected='') Choose your option
+              option(value='0') gram
+              option(value='1') lb 
+              option(value='2') kg
+              option(value='3') tn
+        .col.l4.offset-l1.input-field
+          select#unit2
+            option(value='0') gram
+            option(value='1') lb
+            option(value='2') kg
+            option(value='3') tn
+        // 
+        .col.l4.offset-l1
+          input#measure1(type='number', name='measure1', value='', placeholder='type here the value')
+        .col.l4.offset-l1
+          input#measure2(type='number', name='measure2', value='', placeholder='here it´s your conversion')
+    .row
+      .col.l2.offset-l5
+        button#button.btn.waves-effect.waves-light.button(name='accept') Convert!
+  script(src='https://code.jquery.com/jquery-3.3.1.js', integrity='sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=', crossorigin='anonymous')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js')
+  script(type='text/javascript', src='./app.js')

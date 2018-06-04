@@ -1,0 +1,47 @@
+{
+  "name": "weightconverter",
+  "version": "0.1.0",
+  "description": "this a weight converter units app created du\u001b[B\u001b[DJava script course of Platzi\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[C\u001b[S",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisFelipeEvilla/weightConverter.git"
+  },
+  "keywords": [
+    "weightConverter",
+    "converter",
+    "weight"
+  ],
+  "author": "Luis Felipe Evilla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisFelipeEvilla/weightConverter/issues"
+  },
+  "homepage": "https://github.com/luisFelipeEvilla/weightConverter#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "materialize-css": "^0.100.2",
+    "object": "^0.1.1",
+    "path": "^0.12.7",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "express-generator": "^4.16.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.3",
+    "nodemon": "^1.17.5",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
